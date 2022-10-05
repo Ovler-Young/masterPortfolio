@@ -20,8 +20,10 @@
 }
 
 .card-img {
-  width: 200px;
+  width: auto;
+  max-width: 200px;
   height: auto;
+  max-height: 200px;
   border-radius: 50%;
   padding: 10px;
   border: 1px solid #d9dbdf;
@@ -46,8 +48,17 @@
 
 .body-header-duration {
   width: 20%;
+  max-width: 160px;
+  justify-content: flex-end;
 }
 .duration {
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  /* color: #212121; */
+  padding-right: 10px;
+  float: right;
+}
+.gpa {
   font-family: "Google Sans Regular";
   font-size: 16px;
   /* color: #212121; */
@@ -128,10 +139,6 @@
     padding: 0px;
     margin: 0px;
     float: left;
-  }
-
-  .card-img {
-    width: 200px;
   }
 
   .card-body {

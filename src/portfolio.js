@@ -47,47 +47,65 @@ const socialMediaLinks = [
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+    name: "Telegram",
+    link: "https://t.me/Ovler",
+    fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/linkedin-in?style=brands<i class="fa-brands fa-telegram"></i>
+    backgroundColor: "#26A5E4", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  //{
+  //  name: "YouTube",
+  //  link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
+  //  fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //  backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  //},
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    link: "mailto://ovlertheyoung@gmail.com",
+    fontAwesomeIcon: "fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+    name: "Telephone",
+    link: "tel:+8615355021145",
+    fontAwesomeIcon: "fa-phone",
+    backgroundColor: "#00A1D6",
   },
   {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+    name: "Blog",
+    link: "https://blog.180811.xyz",
+    fontAwesomeIcon: "fa-rss",
+    backgroundColor: "#FFA500",
   },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  //{
+  //  name: "Bilibili",
+  //  link: "https://space.bilibili.com/476390993",
+  //  fontAwesomeIcon: "fa-bilibili",
+  //  backgroundColor: "#00A1D6",
+  //},
+  //{
+  //  name: "Twitter",
+  //  link: "https://twitter.com/ashutosh_1919",
+  //  fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+  //  backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  //},
+  //{
+  //  name: "Facebook",
+  //  link: "https://www.facebook.com/laymanbrother.19/",
+  //  fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //  backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  //},
+  //{
+  //  name: "Instagram",
+  //  link: "https://www.instagram.com/layman_brother/",
+  //  fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //  backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  //},
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Bioprovcessing Engineering",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
@@ -368,17 +386,20 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "Beijing University of Chemical Technology",
+      subtitle: " Bachelor of Engineering in Bioprocess Engineering",
+      logo_path: "BUCT_logo.png",
+      alt_name: "BUCT",
+      duration: "June 2021 - Present",
+      gpa: "3.26/4.33",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I'm still studying in this university, currently in my 2nd year.",
+        "⚡ I have studied basic courses like Calculus, Linear Algebra, Physics, Chemistry, etc. in my first year.",
+        "⚡ Apart from this, I have done courses on Computing methods, Python and 'Artificial Intelligence and Automation'. ",
+        "⚡ What's more, I've joined some clubs in my spare time, like 'Student Network Center' and 'Zhadui Acadamic Club'.",
+        "⚡ I am in a exchange program with SUNY-ESF, and I will spend my 4rd year in Syracuse, NY.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.buct.edu.cn/",
     },
   ],
 };
