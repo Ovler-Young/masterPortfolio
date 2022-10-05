@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "ovlers_portfolio",
-  "homepage": "https://master-portfolio-n0k2r84wh-ovler.vercel.app/",
+  "homepage": "https://portfolio.180811.xyz/",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
