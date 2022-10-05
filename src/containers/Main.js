@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Routes, HashRouter } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
@@ -16,7 +16,7 @@ export default class Main extends Component {
       return (
         <div>
           <HashRouter basename="/">
-            <Routes>
+            <Switch>
               <Route
                 path="/"
                 exact
@@ -71,7 +71,7 @@ export default class Main extends Component {
                   <Error404 {...props} theme={this.props.theme} />
                 )}
               />
-            </Routes>
+            </Switch>
           </HashRouter>
         </div>
       );
@@ -79,7 +79,7 @@ export default class Main extends Component {
       return (
         <div>
           <HashRouter basename="/">
-            <Routes>
+            <Switch>
               <Route
                 path="/"
                 exact
@@ -114,14 +114,22 @@ export default class Main extends Component {
                   <Contact {...props} theme={this.props.theme} />
                 )}
               />
-
+              {/* <Route
+							path="/splash"
+							render={(props) => (
+								<Splash
+									{...props}
+									theme={this.props.theme}
+								/>
+							)}
+						/> */}
               <Route
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
                 )}
               />
-            </Routes>
+            </Switch>
           </HashRouter>
         </div>
       );

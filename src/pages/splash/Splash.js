@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Splash.css";
-import { Navigate } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 import LoaderLogo from "../../components/Loader/LoaderLogo.js";
 
 function AnimatedSplash(props) {
@@ -31,7 +31,7 @@ class Splash extends Component {
 
   render() {
     return this.state.redirect ? (
-      <Navigate to="/home" />
+      <Redirect to="/home" />
     ) : (
       <AnimatedSplash theme={this.props.theme} />
     );
