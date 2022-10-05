@@ -69,5 +69,30 @@
   "lint-staged": {
     "*.json": "prettier-package-json --write",
     "*.{js,css,md}": "prettier --write"
+  },
+  "pnpm": {
+    "overrides": {
+      "node-forge@<1.0.0": ">=1.0.0",
+      "immer@<9.0.6": ">=9.0.6",
+      "object-path@<0.11.6": ">=0.11.6",
+      "serialize-javascript@<3.1.0": ">=3.1.0",
+      "postcss@<7.0.36": ">=7.0.36",
+      "object-path@<0.11.5": ">=0.11.5",
+      "node-forge@<1.3.0": ">=1.3.0",
+      "nth-check@<2.0.1": ">=2.0.1",
+      "shell-quote@<=1.7.2": ">=1.7.3",
+      "glob-parent@<5.1.2": ">=5.1.2",
+      "yargs-parser@>=6.0.0 <13.1.2": ">=13.1.2",
+      "react-dev-utils@>=0.4.0 <11.0.4": ">=11.0.4",
+      "object-path@<0.11.8": ">=0.11.8",
+      "ansi-html@<0.0.8": ">=0.0.8",
+      "postcss@>=7.0.0 <7.0.36": ">=7.0.36",
+      "browserslist@>=4.0.0 <4.16.5": ">=4.16.5",
+      "sockjs@<0.3.20": ">=0.3.20",
+      "immer@<8.0.1": ">=8.0.1",
+      "node-notifier@<8.0.1": ">=8.0.1",
+      "serialize-javascript@<2.1.1": ">=2.1.1",
+      "jsdom@<=16.4.0": ">=16.5.0"
+    }
   }
 }
