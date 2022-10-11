@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Oliver's Portfolio",
   description:
-    "In process bioengineering student with experience and interest in computer engineering.",
+    "In process bioprocess engineering student with experience and interest in computer engineering.",
   og: {
     title: "Oliver Jin's Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "OliverJin",
   nickname: "Ovler",
   subTitle:
-    "In process bioengineering student with experience and interest in computer engineering.",
+    "In process bioprocess engineering student with experience and interest in computer engineering.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/Ovler-Young/masterPortfolio",
@@ -34,104 +34,68 @@ const socialMediaLinks = [
   {
     name: "Github",
     link: "https://github.com/Ovler-Young",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    fontAwesomeIcon: "fab fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "Telegram",
     link: "https://t.me/Ovler",
-    fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/linkedin-in?style=brands<i class="fa-brands fa-telegram"></i>
+    fontAwesomeIcon: "fab fa-telegram-plane", // Reference https://fontawesome.com/icons/telegram?style=brands
     backgroundColor: "#26A5E4", // Reference https://simpleicons.org/?q=linkedin
   },
-  //{
-  //  name: "YouTube",
-  //  link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-  //  fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //  backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  //},
   {
     name: "Gmail",
     link: "mailto://ovlertheyoung@gmail.com",
-    fontAwesomeIcon: "fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
+    fontAwesomeIcon: "fas fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Telephone",
     link: "tel:+8615355021145",
-    fontAwesomeIcon: "fa-phone",
-    backgroundColor: "#00A1D6",
+    fontAwesomeIcon: "fas fa-phone", // Reference https://fontawesome.com/icons/phone?style=solid
+    backgroundColor: "#00A1C6",
   },
   {
     name: "Blog",
     link: "https://blog.180811.xyz",
-    fontAwesomeIcon: "fa-rss",
+    fontAwesomeIcon: "fas fa-rss",
     backgroundColor: "#FFA500",
   },
-  //{
-  //  name: "Bilibili",
-  //  link: "https://space.bilibili.com/476390993",
-  //  fontAwesomeIcon: "fa-bilibili",
-  //  backgroundColor: "#00A1D6",
-  //},
-  //{
-  //  name: "Twitter",
-  //  link: "https://twitter.com/ashutosh_1919",
-  //  fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-  //  backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  //},
-  //{
-  //  name: "Facebook",
-  //  link: "https://www.facebook.com/laymanbrother.19/",
-  //  fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-  //  backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  //},
-  //{
-  //  name: "Instagram",
-  //  link: "https://www.instagram.com/layman_brother/",
-  //  fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-  //  backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  //},
 ];
 
 const skills = {
   data: [
     {
-      title: "Bioprovcessing Engineering",
-      fileName: "DataScienceImg",
+      title: "Bioprocessing Engineering",
+      fileName: "DataScienceImg", // TODO: Change this to your data science image
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
         "⚡ Experience of working with Computer Vision and NLP projects",
         "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
+      ], // TODO: Change this to bioengineering skills
+      softwareSkills: [ // TODO: Change to Matlab, R, Excel, etc.
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
+          },
+        },
+        {
+          skillName: "R",
+          fontAwesomeClassname: "ion-logo-r",
+          style: {
+            backgroundColor: "transparent",
+            color: "#276DC3",
+          },
+        },
+        {
+          skillName: "Matlab",
+          fontAwesomeClassname: "ion-logo-matlab",
+          style: {
+            backgroundColor: "transparent",
+            color: "#276DC3",
           },
         },
       ],
