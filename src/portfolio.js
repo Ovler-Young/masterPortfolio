@@ -69,9 +69,9 @@ const skills = {
       title: "Bioprocessing Engineering",
       fileName: "DataScienceImg", // TODO: Change this to your data science image
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Corrently learning in college",
+        "⚡ Experience of working with plant tissue culture and E. coli culture",
+        "⚡ Corrently focusing on Project 'Selection and breeding of high-yielding strains of ε-polylysine'",
       ], // TODO: Change this to bioengineering skills
       softwareSkills: [ // TODO: Change to Matlab, R, Excel, etc.
         {
@@ -93,6 +93,14 @@ const skills = {
         {
           skillName: "Matlab",
           fontAwesomeClassname: "ion-logo-matlab",
+          style: {
+            backgroundColor: "transparent",
+            color: "#276DC3",
+          },
+        },
+        {
+          skillName: "Excel",
+          fontAwesomeClassname: "ion-logo-excel",
           style: {
             backgroundColor: "transparent",
             color: "#276DC3",
