@@ -84,7 +84,7 @@ const skills = {
         },
         {
           skillName: "R",
-          fontAwesomeClassname: "ion-logo-r",
+          fontAwesomeClassname: "simple-icons:r",
           style: {
             backgroundColor: "transparent",
             color: "#276DC3",
@@ -92,7 +92,7 @@ const skills = {
         },
         {
           skillName: "Matlab",
-          fontAwesomeClassname: "ion-logo-matlab",
+          fontAwesomeClassname: "vscode-icons:file-type-matlab",
           style: {
             backgroundColor: "transparent",
             color: "#276DC3",
@@ -100,7 +100,7 @@ const skills = {
         },
         {
           skillName: "Excel",
-          fontAwesomeClassname: "ion-logo-excel",
+          fontAwesomeClassname: "vscode-icons:file-type-excel2",
           style: {
             backgroundColor: "transparent",
             color: "#276DC3",
@@ -109,12 +109,12 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Part-Timed Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
+        "⚡ Building responsive website front end using React and many other libraries",
         "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Creating application backend in Node & Flask",
       ],
       softwareSkills: [
         {
@@ -129,13 +129,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -161,17 +154,10 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "PNPM",
+          fontAwesomeClassname: "logos:pnpm",
           style: {
             color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
           },
         },
         {
@@ -179,13 +165,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:gatsby",
           style: {
             color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
           },
         },
       ],
@@ -201,15 +180,8 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Vercel",
+          fontAwesomeClassname: "logos:vercel-icon",
           style: {
             color: "#FF9900",
           },
@@ -233,13 +205,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
             color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
           },
         },
         {
