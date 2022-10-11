@@ -598,7 +598,7 @@ const publicationsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-const publications = {
+const publications = { // TODO: remove this
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
@@ -654,7 +654,7 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",//TODO
     link: "https://hexo.180811.xyz",
     avatar_image_path: "blogs_image.svg",
   },
@@ -663,11 +663,14 @@ const contactPageData = {
     subtitle:
       "Address: Beijing city Chaoyang District North Third Ring Road 15",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://www.openstreetmap.org/way/629215836#",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+86 153 5502 1145",
+    phone: [
+      "+86 153 5502 1145",
+      "+1 937 985 2118",
+    ],
   },
 };
 
