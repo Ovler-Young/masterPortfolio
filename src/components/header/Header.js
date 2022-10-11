@@ -49,6 +49,18 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
+                <a
+                  href="https://share.180811.xyz/zh-CN/Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Resume
+                </a>
+              </li>
+              <li>
                 <NavLink
                   to="/education"
                   tag={Link}
@@ -107,18 +119,6 @@ class Header extends Component {
                 >
                   Contact Me
                 </NavLink>
-              </li>
-              <li>
-                <a
-                  href="https://share.180811.xyz/zh-CN/Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Resume
-                </a>
               </li>
             </ul>
           </header>
