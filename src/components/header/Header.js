@@ -110,7 +110,7 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/resume"
+                  to="https://share.180811.xyz/zh-CN/Resume.pdf"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
