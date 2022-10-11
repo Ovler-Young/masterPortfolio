@@ -44,6 +44,7 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
+                  class="unami--click--go-home-from-menu"
                 >
                   Home
                 </NavLink>
@@ -56,7 +57,7 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
-                  onClick={() => umami.trackEvent("resume")}
+                  class="unami--click--resume-from-menu"
                 >
                   Resume
                 </a>
@@ -69,6 +70,7 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
+                  class="unami--click--education-from-menu"
                 >
                   Education
                 </NavLink>
@@ -81,6 +83,7 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
+                  class="unami--click--experience-from-menu"
                 >
                   Experience
                 </NavLink>
@@ -93,6 +96,7 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
+                  class="unami--click--projects-from-menu"
                 >
                   Projects
                 </NavLink>
@@ -105,6 +109,7 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
+                  class="unami--click--opensource-from-menu"
                 >
                   Open Source
                 </NavLink>
@@ -117,6 +122,7 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
+                  class="unami--click--contact-from-menu"
                 >
                   Contact Me
                 </NavLink>
