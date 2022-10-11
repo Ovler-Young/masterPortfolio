@@ -148,6 +148,11 @@ fetch(baseUrl, {
       if (cropped["data"][i]["state"] === "OPEN") open++;
       else if (cropped["data"][i]["state"] === "MERGED") merged++;
       else closed++;
+      // remove pr in my own repo. The username is coded in "data.baseRepository.owner.login"
+      if (cropped["data"][i]["baseRepository"]["owner"]["login"] === openSource.githubUserName || cropped["data"][i]["baseRepository"]["owner"]["login"] === "luckypoem") {
+        cropped["data"].splice(i, 1);
+        i--;
+      }
     }
 
     cropped["open"] = open;
@@ -184,6 +189,11 @@ fetch(baseUrl, {
     for (var i = 0; i < cropped["data"].length; i++) {
       if (cropped["data"][i]["closed"] === false) open++;
       else closed++;
+      // remove issue in my own repo. The username is coded in "data.repository.owner.login"
+      if (cropped["data"][i]["repository"]["owner"]["login"] === openSource.githubUserName || cropped["data"][i]["repository"]["owner"]["login"] === "poclass") {
+        cropped["data"].splice(i, 1);
+        i--;
+      }
     }
 
     cropped["open"] = open;

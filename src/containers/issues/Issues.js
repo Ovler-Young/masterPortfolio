@@ -12,7 +12,7 @@ class Issues extends Component {
         <div className="issues-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="issues-header" style={{ color: theme.text }}>
-              Issues
+            Latest Public Issues
             </h1>
           </Fade>
         </div>

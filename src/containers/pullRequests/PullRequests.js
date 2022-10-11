@@ -12,7 +12,7 @@ class PullRequests extends Component {
         <div className="pull-requests-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="pull-requests-header" style={{ color: theme.text }}>
-              Pull Requests
+              Latest Public Pull Requests devoted to Open Source
             </h1>
           </Fade>
         </div>

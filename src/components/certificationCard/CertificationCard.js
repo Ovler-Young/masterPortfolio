@@ -7,7 +7,7 @@ class CertificationCard extends Component {
     const certificate = this.props.certificate;
     const theme = this.props.theme;
     return (
-      <Fade bottom duration={2000} distance="20px">
+      <Fade bottom duration={2000} distance="20px" class="umami--click--certification-card_{certificate.title}">
         <div className="cert-card">
           <div className="content">
             <a
