@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "In process bioprocess engineering student with experience and interest in computer engineering.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://share.180811.xyz/Resume.pdf",
   portfolio_repository: "https://github.com/Ovler-Young/masterPortfolio",
   githubProfile: "https://github.com/Ovler-Young",
 };
