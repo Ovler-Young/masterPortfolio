@@ -1,6 +1,7 @@
 import React from "react";
 import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
+import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import styled from "styled-components";
 
 const IconWrapper = styled.span`
@@ -18,17 +19,28 @@ export default function socialMedia(props) {
     <div className="social-media-div">
       {socialMediaLinks.map((media) => {
         return (
-          <a
-            href={media.link}
-            className={`icon-button`}
-            target="_blank"
-            rel="noopener noreferrer"
+          <OverlayTrigger
+            key={media.name}
+            placement={"top"}
+            style={{ marginBottom: "5px" }}
+            overlay={
+              <Tooltip id={`tooltip-top`}>
+                <strong>{`Visit my ${media.name}`}</strong>
+              </Tooltip>
+            }
           >
-            <IconWrapper {...media} {...props}>
-              <i className={`${media.fontAwesomeIcon}`}></i>
-            </IconWrapper>
-            {/* <span></span> */}
-          </a>
+            <a
+              href={media.link}
+              className={`icon-button`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconWrapper {...media} {...props}>
+                <i className={`${media.fontAwesomeIcon}`}></i>
+              </IconWrapper>
+              {/* <span></span> */}
+            </a>
+          </OverlayTrigger>
         );
       })}
     </div>

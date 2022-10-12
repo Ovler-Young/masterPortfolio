@@ -61,6 +61,18 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fas fa-rss",
     backgroundColor: "#FFA500",
   },
+  {
+    name: "WeChat",
+    link: "https://share.180811.xyz/WeChat.jpg",
+    fontAwesomeIcon: "fab fa-weixin",
+    backgroundColor: "#7BB32E",
+  },
+  {
+    name: "read.cv",
+    link: "https://read.cv/engineer",
+    fontAwesomeIcon: "fas fa-file-alt",
+    backgroundColor: "#FFA500",
+  }
 ];
 
 const skills = {
