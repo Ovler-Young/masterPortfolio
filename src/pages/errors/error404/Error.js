@@ -15,8 +15,19 @@ export default class Error extends Component {
         <div className="error-class">
           <Fade bottom duration={2000} distance="40px">
             <h1>Woops</h1>
-            <h1 className="error-404">404</h1>
+            <h1>
+            <span className="error-text-span">404</span>
+            </h1>
+            <h1 className="error-404">
+              <span className="error-text-span">
+                {window.location.href.split("/").pop()}
+              </span>
+            </h1>
+            <h1 className="error-text">
+              is sitill under construction
+            </h1>
             <p>The requested page is unavailable at the moment!</p>
+            <p>Will soon be available!</p>
             <Link
               className="main-button"
               to="/home"
