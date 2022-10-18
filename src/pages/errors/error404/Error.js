@@ -20,7 +20,7 @@ export default class Error extends Component {
             </h1>
             <h1 className="error-404">
               <span className="error-text-span">
-                {window.location.href.split("/").pop()}
+                {window.location.href.split("/").pop().toUpperCase()}
               </span>
             </h1>
             <h1 className="error-text">

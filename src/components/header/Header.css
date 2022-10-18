@@ -124,9 +124,9 @@
   top: 0;
 }
 
-/* 48em = 768px */
+/* 60em = 960px */
 
-@media (min-width: 48em) {
+@media (min-width: 60em) {
   .header li {
     float: left;
   }
@@ -142,7 +142,7 @@
     display: none;
   }
 }
-@media (max-width: 960px) and (min-width: 768px) {
+@media (max-width: 1155px) and (min-width: 960px) {
   .header {
     font-size: 12px;
   }
