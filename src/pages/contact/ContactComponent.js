@@ -50,7 +50,7 @@ class Contact extends Component {
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
-                    class="umami--click--resume-btn-in-contact-page"
+                    className="umami--click--resume-btn-in-contact-page"
                   />
                 </div>
               </div>
@@ -74,7 +74,7 @@ class Contact extends Component {
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
-                    class="umami--click--blogsite-btn-in-contact-page"
+                    className="umami--click--blogsite-btn-in-contact-page"
                   />
                 </div>
               </div>
@@ -115,27 +115,27 @@ class Contact extends Component {
                 >
                   {phoneSection["title"]}
                 </h1>
-                  <a
-                    className="contact-header-detail-text subTitle"
-                    style={{ color: theme.secondaryText }}
-                    href={`tel:${phoneSection["phone"][0]}`}
-                  >
-                    {`${phoneSection["phone"][0]}`}
-                  </a>
-                  <a
-                    className="contact-header-detail-text subTitle"
-                    style={{ color: theme.secondaryText }}
-                    href={`tel:${phoneSection["phone"][1]}`}
-                  >
-                    {`${phoneSection["phone"][1]}`}
-                  </a>
+                <a
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                  href={`tel:${phoneSection["phone"][0]}`}
+                >
+                  {`${phoneSection["phone"][0]}`}
+                </a>
+                <a
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                  href={`tel:${phoneSection["phone"][1]}`}
+                >
+                  {`${phoneSection["phone"][1]}`}
+                </a>
                 <div className="address-btn-div">
                   <Button
                     text="View on OpenStreetMap"
                     newTab={true}
                     href={addressSection.location_map_link}
                     theme={theme}
-                    class="umami--click--address-btn-in-contact-page"
+                    className="umami--click--address-btn-in-contact-page"
                   />
                 </div>
               </div>

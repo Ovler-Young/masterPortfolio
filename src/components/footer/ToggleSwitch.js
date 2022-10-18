@@ -34,7 +34,7 @@ export default class ToggleSwitch extends Component {
           viewBox="0 0 24 24"
           fill="none"
           stroke={back}
-          stroke-width="2"
+          strokeWidth="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         >
@@ -72,7 +72,7 @@ export default class ToggleSwitch extends Component {
           viewBox="0 0 24 24"
           fill="none"
           stroke={back}
-          stroke-width="2"
+          strokeWidth="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         >

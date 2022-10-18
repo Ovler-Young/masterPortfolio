@@ -6,7 +6,9 @@ export const GlobalStyles = createGlobalStyle`
   *::before {
     box-sizing: border-box;
   }
-
+  .react-reveal{
+    animation-fill-mode: backwards !important;
+  }
   body {
     align-items: center;
     background: ${({ theme }) => theme.body};

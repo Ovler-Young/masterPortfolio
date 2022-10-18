@@ -27,14 +27,13 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
               <SocialMedia theme={theme} />
-                <div className="portfolio-repo-btn-div">
+              <div className="portfolio-repo-btn-div">
                 <Button
                   text="📃 Read My Resume"
                   newTab={true}
                   href={greeting.resumeLink}
                   theme={theme}
-                  className="portfolio-repo-btn"
-                  class="umami--click--resume-button-from-home"
+                  className="portfolio-repo-btn umami--click--resume-button-from-home"
                 />
               </div>
             </div>

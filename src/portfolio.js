@@ -24,8 +24,7 @@ const greeting = {
   nickname: "Ovler",
   subTitle:
     "In process bioprocess engineering student with experience and interest in computer engineering.",
-  resumeLink:
-    "https://share.180811.xyz/Resume.pdf",
+  resumeLink: "https://share.180811.xyz/Resume.pdf",
   portfolio_repository: "https://github.com/Ovler-Young/masterPortfolio",
   githubProfile: "https://github.com/Ovler-Young",
 };
@@ -72,7 +71,7 @@ const socialMediaLinks = [
     link: "https://read.cv/engineer",
     fontAwesomeIcon: "fas fa-file-alt",
     backgroundColor: "#FFA500",
-  }
+  },
 ];
 
 const skills = {
@@ -85,7 +84,8 @@ const skills = {
         "⚡ Experience of working with plant tissue culture and E. coli culture",
         "⚡ Corrently focusing on Project 'Selection and breeding of high-yielding strains of ε-polylysine'",
       ], // TODO: Change this to bioengineering skills
-      softwareSkills: [ // TODO: Change to Matlab, R, Excel, etc.
+      softwareSkills: [
+        // TODO: Change to Matlab, R, Excel, etc.
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
@@ -235,45 +235,45 @@ const skills = {
         },
       ],
     },
-  //  {
-  //    title: "UI/UX Design",
-  //    fileName: "DesignImg",
-  //    skills: [
-  //      "⚡ Designing highly attractive user interface for mobile and web applications",
-  //      "⚡ Customizing logo designs and building logos from scratch",
-  //      "⚡ Creating the flow of application functionalities to optimize user experience",
-  //    ],
-  //    softwareSkills: [
-  //      {
-  //        skillName: "Adobe XD",
-  //        fontAwesomeClassname: "simple-icons:adobexd",
-  //        style: {
-  //          color: "#FF2BC2",
-  //        },
-  //      },
-  //      {
-  //        skillName: "Figma",
-  //        fontAwesomeClassname: "simple-icons:figma",
-  //        style: {
-  //          color: "#F24E1E",
-  //        },
-  //      },
-  //      {
-  //        skillName: "Adobe Illustrator",
-  //        fontAwesomeClassname: "simple-icons:adobeillustrator",
-  //        style: {
-  //          color: "#FF7C00",
-  //        },
-  //      },
-  //      {
-  //        skillName: "Inkscape",
-  //        fontAwesomeClassname: "simple-icons:inkscape",
-  //        style: {
-  //          color: "#000000",
-  //        },
-  //      },
-  //    ],
-  //  },
+    //  {
+    //    title: "UI/UX Design",
+    //    fileName: "DesignImg",
+    //    skills: [
+    //      "⚡ Designing highly attractive user interface for mobile and web applications",
+    //      "⚡ Customizing logo designs and building logos from scratch",
+    //      "⚡ Creating the flow of application functionalities to optimize user experience",
+    //    ],
+    //    softwareSkills: [
+    //      {
+    //        skillName: "Adobe XD",
+    //        fontAwesomeClassname: "simple-icons:adobexd",
+    //        style: {
+    //          color: "#FF2BC2",
+    //        },
+    //      },
+    //      {
+    //        skillName: "Figma",
+    //        fontAwesomeClassname: "simple-icons:figma",
+    //        style: {
+    //          color: "#F24E1E",
+    //        },
+    //      },
+    //      {
+    //        skillName: "Adobe Illustrator",
+    //        fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //        style: {
+    //          color: "#FF7C00",
+    //        },
+    //      },
+    //      {
+    //        skillName: "Inkscape",
+    //        fontAwesomeClassname: "simple-icons:inkscape",
+    //        style: {
+    //          color: "#000000",
+    //        },
+    //      },
+    //    ],
+    //  },
   ],
 };
 
@@ -610,7 +610,8 @@ const publicationsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-const publications = { // TODO: remove this
+const publications = {
+  // TODO: remove this
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
@@ -659,14 +660,14 @@ const publications = { // TODO: remove this
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "Ovler.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",//TODO
+      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.", //TODO
     link: "https://hexo.180811.xyz",
     avatar_image_path: "blogs_image.svg",
   },
@@ -679,10 +680,7 @@ const contactPageData = {
   },
   phoneSection: {
     title: "Phone Number",
-    phone: [
-      "+86 153 5502 1145",
-      "+1 937 985 2118",
-    ],
+    phone: ["+86 153 5502 1145", "+1 937 985 2118"],
   },
 };
 
