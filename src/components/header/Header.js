@@ -48,7 +48,7 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
-                  class="umami--click--go-home-from-menu"
+                  className="umami--click--go-home-from-menu"
                 >
                   Home
                 </NavLink>
@@ -61,12 +61,12 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
-                  class="umami--click--resume-from-menu"
+                  className="umami--click--resume-from-menu"
                 >
                   Resume
                 </a>
               </li>
-              <li class="dropdown">
+              <li className="dropdown">
                 <NavLink
                   to="/academicplan"
                   tag={Link}
@@ -74,18 +74,18 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
-                  class="umami--click--Academicplan-from-menu"
+                  className="umami--click--Academicplan-from-menu"
                 >
                   Academic Related
-                  <i class="fa fa-caret-down"></i>
+                  <i className="fa fa-caret-down"></i>
                 </NavLink>
-                <div class="dropdown-content">
+                <div className="dropdown-content">
                   <a href="/#/education">Education</a>
                   <a href="/#/classes">Classes</a>
                   <a href="/#/labs">Labs</a>
                 </div>
               </li>
-              <li class="dropdown">
+              <li className="dropdown">
                 <NavLink
                   to="/experience"
                   tag={Link}
@@ -93,12 +93,12 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
-                  class="umami--click--experience-from-menu"
+                  className="umami--click--experience-from-menu"
                 >
                   Experience
-                  <i class="fa fa-caret-down"></i>
+                  <i className="fa fa-caret-down"></i>
                 </NavLink>
-                <div class="dropdown-content">
+                <div className="dropdown-content">
                   <a href="/#/academicplan">Study</a>
                   <a href="/#/essay">Essay</a>
                   <a href="/#/projects">Projects</a>
@@ -113,12 +113,12 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
-                  class="umami--click--opensource-from-menu"
+                  className="umami--click--opensource-from-menu"
                 >
                   Open Source
                 </NavLink>
               </li>
-              <li class="dropdown">
+              <li className="dropdown">
                 <NavLink
                   to="/others"
                   tag={Link}
@@ -126,12 +126,12 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
-                  class="umami--click--others-from-menu"
+                  className="umami--click--others-from-menu"
                 >
                   Others
-                  <i class="fa fa-caret-down"></i>
+                  <i className="fa fa-caret-down"></i>
                 </NavLink>
-                <div class="dropdown-content">
+                <div className="dropdown-content">
                   <a href="/#/interests">Interests</a>
                   <a href="/#/reflection">Reflection</a>
                   <a href="/#/learningphilosophy">Learning Philosophy</a>
@@ -145,7 +145,7 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
-                  class="umami--click--contact-from-menu"
+                  className="umami--click--contact-from-menu"
                 >
                   Contact Me
                 </NavLink>

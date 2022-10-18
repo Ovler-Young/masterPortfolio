@@ -11,7 +11,7 @@ class CertificationCard extends Component {
         bottom
         duration={2000}
         distance="20px"
-        class="umami--click--certification-card_{certificate.title}"
+        className="umami--click--certification-card_{certificate.title}"
       >
         <div className="cert-card">
           <div className="content">

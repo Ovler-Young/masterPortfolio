@@ -34,7 +34,7 @@ export default function Greeting(props) {
                   href={greeting.resumeLink}
                   theme={theme}
                   className="portfolio-repo-btn"
-                  class="umami--click--resume-button-from-home"
+                  className="umami--click--resume-button-from-home"
                 />
               </div>
             </div>

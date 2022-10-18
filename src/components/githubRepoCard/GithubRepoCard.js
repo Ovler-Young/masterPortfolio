@@ -15,7 +15,7 @@ export default function GithubRepoCard({ repo, theme }) {
         bottom
         duration={2000}
         distance="40px"
-        class="umami--click--certification-card_{repo.name}"
+        className="umami--click--certification-card_{repo.name}"
       >
         <div key={repo.id} onClick={() => openRepoinNewTab(repo.url)}>
           <div className="repo-name-div">

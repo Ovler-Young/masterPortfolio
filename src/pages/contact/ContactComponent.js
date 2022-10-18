@@ -50,7 +50,7 @@ class Contact extends Component {
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
-                    class="umami--click--resume-btn-in-contact-page"
+                    className="umami--click--resume-btn-in-contact-page"
                   />
                 </div>
               </div>
@@ -74,7 +74,7 @@ class Contact extends Component {
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
-                    class="umami--click--blogsite-btn-in-contact-page"
+                    className="umami--click--blogsite-btn-in-contact-page"
                   />
                 </div>
               </div>
@@ -135,7 +135,7 @@ class Contact extends Component {
                     newTab={true}
                     href={addressSection.location_map_link}
                     theme={theme}
-                    class="umami--click--address-btn-in-contact-page"
+                    className="umami--click--address-btn-in-contact-page"
                   />
                 </div>
               </div>
