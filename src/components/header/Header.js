@@ -95,10 +95,11 @@ class Header extends Component {
                   <i className="fa fa-caret-down"></i>
                 </NavLink>
                 <div className="dropdown-content">
-                  <a href="/#/academicplan">Study</a>
-                  <a href="/#/essay">Essay</a>
-                  <a href="/#/projects">Projects</a>
                   <a href="/#/Volunteer">Volunteer</a>
+                  <a href="/#/projects">Projects</a>
+                  <a href="/#/essay">Essay</a>
+                  <a href="/#/academicplan">Study</a>
+
                 </div>
               </li>
               <li>
@@ -128,9 +129,9 @@ class Header extends Component {
                   <i className="fa fa-caret-down"></i>
                 </NavLink>
                 <div className="dropdown-content">
-                  <a href="/#/interests">Interests</a>
-                  <a href="/#/reflection">Reflection</a>
                   <a href="/#/learningphilosophy">Learning Philosophy</a>
+                  <a href="/#/reflection">Reflection</a>
+                  <a href="/#/hobbies">Hobbies</a>
                 </div>
               </li>
               <li>
