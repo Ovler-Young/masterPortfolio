@@ -8,10 +8,6 @@ import SeoHeader from "../seoHeader/SeoHeader";
 const onMouseEnter = (event, color) => {
   const el = event.target;
   el.style.backgroundColor = color;
-  // set z-index to 1 to make sure the element is on top of other elements
-  el.style.zIndex = 1;
-  // set z-index of all other elements to 0
-  const siblings = el.parentNode.children;
 };
 
 const onMouseOut = (event) => {
