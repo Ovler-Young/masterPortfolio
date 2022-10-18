@@ -19,6 +19,7 @@
 
 .greeting-main {
   display: flex;
+  z-index: 1;
 }
 
 .greeting-main > * {

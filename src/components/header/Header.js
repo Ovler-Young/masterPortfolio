@@ -8,6 +8,11 @@ import SeoHeader from "../seoHeader/SeoHeader";
 const onMouseEnter = (event, color) => {
   const el = event.target;
   el.style.backgroundColor = color;
+  // set z-index to 1 to make sure the element is on top of other elements
+  el.style.zIndex = 1;
+  // set z-index of all other elements to 0
+  const siblings = el.parentNode.children;
+  
 };
 
 const onMouseOut = (event) => {
@@ -62,20 +67,26 @@ class Header extends Component {
                   Resume
                 </a>
               </li>
-              <li>
+              <li class="dropdown">
                 <NavLink
-                  to="/education"
+                  to="/academicplan"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
-                  class="umami--click--education-from-menu"
+                  class="umami--click--Academicplan-from-menu"
                 >
-                  Education
+                  Academic Related
+                  <i class="fa fa-caret-down"></i>
                 </NavLink>
+                <div class="dropdown-content">
+                    <a href="/#/education">Education</a>
+                    <a href="/#/classes">Classes</a>
+                    <a href="/#/labs">Labs</a>
+                </div>
               </li>
-              <li>
+              <li class="dropdown">
                 <NavLink
                   to="/experience"
                   tag={Link}
@@ -86,20 +97,14 @@ class Header extends Component {
                   class="umami--click--experience-from-menu"
                 >
                   Experience
+                  <i class="fa fa-caret-down"></i>
                 </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/projects"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                  class="umami--click--projects-from-menu"
-                >
-                  Projects
-                </NavLink>
+                <div class="dropdown-content">
+                    <a href="/#/academicplan">Study</a>
+                    <a href="/#/essay">Essay</a>
+                    <a href="/#/projects">Projects</a>
+                    <a href="/#/Volunteer">Volunteer</a>
+                </div>
               </li>
               <li>
                 <NavLink
@@ -113,6 +118,25 @@ class Header extends Component {
                 >
                   Open Source
                 </NavLink>
+              </li>
+              <li class="dropdown">
+                <NavLink
+                  to="/others"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                  class="umami--click--others-from-menu"
+                >
+                  Others
+                  <i class="fa fa-caret-down"></i>
+                </NavLink>
+                <div class="dropdown-content">
+                    <a href="/#/interests">Interests</a>
+                    <a href="/#/reflection">Reflection</a>
+                    <a href="/#/learningphilosophy">Learning Philosophy</a>
+                </div>
               </li>
               <li>
                 <NavLink
