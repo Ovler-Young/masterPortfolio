@@ -12,7 +12,6 @@ const onMouseEnter = (event, color) => {
   el.style.zIndex = 1;
   // set z-index of all other elements to 0
   const siblings = el.parentNode.children;
-  
 };
 
 const onMouseOut = (event) => {
@@ -81,9 +80,9 @@ class Header extends Component {
                   <i class="fa fa-caret-down"></i>
                 </NavLink>
                 <div class="dropdown-content">
-                    <a href="/#/education">Education</a>
-                    <a href="/#/classes">Classes</a>
-                    <a href="/#/labs">Labs</a>
+                  <a href="/#/education">Education</a>
+                  <a href="/#/classes">Classes</a>
+                  <a href="/#/labs">Labs</a>
                 </div>
               </li>
               <li class="dropdown">
@@ -100,10 +99,10 @@ class Header extends Component {
                   <i class="fa fa-caret-down"></i>
                 </NavLink>
                 <div class="dropdown-content">
-                    <a href="/#/academicplan">Study</a>
-                    <a href="/#/essay">Essay</a>
-                    <a href="/#/projects">Projects</a>
-                    <a href="/#/Volunteer">Volunteer</a>
+                  <a href="/#/academicplan">Study</a>
+                  <a href="/#/essay">Essay</a>
+                  <a href="/#/projects">Projects</a>
+                  <a href="/#/Volunteer">Volunteer</a>
                 </div>
               </li>
               <li>
@@ -133,9 +132,9 @@ class Header extends Component {
                   <i class="fa fa-caret-down"></i>
                 </NavLink>
                 <div class="dropdown-content">
-                    <a href="/#/interests">Interests</a>
-                    <a href="/#/reflection">Reflection</a>
-                    <a href="/#/learningphilosophy">Learning Philosophy</a>
+                  <a href="/#/interests">Interests</a>
+                  <a href="/#/reflection">Reflection</a>
+                  <a href="/#/learningphilosophy">Learning Philosophy</a>
                 </div>
               </li>
               <li>

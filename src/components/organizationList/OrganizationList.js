@@ -21,12 +21,17 @@ class OrganizationList extends Component {
                 }
               >
                 <li className="organizations-inline" name={logo["login"]}>
-                  <Fade bottom duration={2000} distance="40px" >
-                    <a className="organizations-img" href={`https://github.com/${logo["login"]}`} target="_blank" rel="noopener noreferrer">
-                      <img
+                  <Fade bottom duration={2000} distance="40px">
+                    <a
                       className="organizations-img"
-                      src={logo["avatarUrl"]}
-                      alt={logo["login"]}
+                      href={`https://github.com/${logo["login"]}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        className="organizations-img"
+                        src={logo["avatarUrl"]}
+                        alt={logo["login"]}
                       />
                     </a>
                   </Fade>

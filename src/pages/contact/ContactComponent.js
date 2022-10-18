@@ -115,20 +115,20 @@ class Contact extends Component {
                 >
                   {phoneSection["title"]}
                 </h1>
-                  <a
-                    className="contact-header-detail-text subTitle"
-                    style={{ color: theme.secondaryText }}
-                    href={`tel:${phoneSection["phone"][0]}`}
-                  >
-                    {`${phoneSection["phone"][0]}`}
-                  </a>
-                  <a
-                    className="contact-header-detail-text subTitle"
-                    style={{ color: theme.secondaryText }}
-                    href={`tel:${phoneSection["phone"][1]}`}
-                  >
-                    {`${phoneSection["phone"][1]}`}
-                  </a>
+                <a
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                  href={`tel:${phoneSection["phone"][0]}`}
+                >
+                  {`${phoneSection["phone"][0]}`}
+                </a>
+                <a
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                  href={`tel:${phoneSection["phone"][1]}`}
+                >
+                  {`${phoneSection["phone"][1]}`}
+                </a>
                 <div className="address-btn-div">
                   <Button
                     text="View on OpenStreetMap"
