@@ -60,6 +60,7 @@ const socialMediaLinks = [
     link: "mailto://ovlertheyoung@gmail.com",
     fontAwesomeIcon: "fas fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    msg: "Send me an email",
   },
   {
     name: "Telephone",
