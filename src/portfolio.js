@@ -43,6 +43,17 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fab fa-telegram-plane", // Reference https://fontawesome.com/icons/telegram?style=brands
     backgroundColor: "#26A5E4", // Reference https://simpleicons.org/?q=linkedin
     msg: "Send me a message on Telegram",
+    needimg: true,
+    img_path: "telegram.jpg",
+  },
+  {
+    name: "WeChat",
+    link: "https://share.180811.xyz/WeChat.jpg",
+    fontAwesomeIcon: "fab fa-weixin",
+    backgroundColor: "#7BB32E",
+    needimg: true,
+    img_path: "wechat.png",
+    msg: "Scan my WeChat QR code",
   },
   {
     name: "Gmail",
@@ -64,22 +75,13 @@ const socialMediaLinks = [
     backgroundColor: "#FFA500",
     msg: "Visit my blog",
   },
-  {
-    name: "WeChat",
-    link: "https://share.180811.xyz/WeChat.jpg",
-    fontAwesomeIcon: "fab fa-weixin",
-    backgroundColor: "#7BB32E",
-    needimg: true,
-    img_path: "wechat.png",
-    msg: "Scan my WeChat QR code",
-  },
-  {
-    name: "read.cv",
-    link: "https://read.cv/engineer",
-    fontAwesomeIcon: "fas fa-file-alt",
-    backgroundColor: "#FFA500",
-    msg: "Read my CV",
-  },
+  //{
+  //  name: "read.cv",
+  //  link: "https://read.cv/engineer",
+  //  fontAwesomeIcon: "fas fa-file-alt",
+  //  backgroundColor: "#FFA500",
+  //  msg: "Read my CV",
+  //},
 ];
 
 const skills = {
