@@ -68,3 +68,14 @@
     text-align: center;
   }
 }
+
+.media_asset {
+  width: auto;
+  max-width: 200px;
+  height: auto;
+  max-height: 600px;
+  box-shadow: 1px 1px 10px #353433;
+  border-radius: 10px;
+  margin: 10px;
+  float: left;
+}

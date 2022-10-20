@@ -18,6 +18,29 @@ export default function socialMedia(props) {
   return (
     <div className="social-media-div">
       {socialMediaLinks.map((media) => {
+        if (media.needimg) {
+          return (
+            <OverlayTrigger
+              key={media.name}
+              placement={"top"}
+              style={{ marginBottom: "5px" }}
+              overlay={
+                  <img
+                    src={require(`../../assests/images/${media.img_path}`)}
+                    alt={media.name}
+                    className="media_asset"
+                  />
+              }
+            >
+              <box className={`icon-button`}>
+                <IconWrapper {...media} {...props}>
+                  <i className={`${media.fontAwesomeIcon}`}></i>
+                </IconWrapper>
+                {/* <span></span> */}
+              </box>
+            </OverlayTrigger>
+          );
+        } else {
         return (
           <OverlayTrigger
             key={media.name}
@@ -25,7 +48,7 @@ export default function socialMedia(props) {
             style={{ marginBottom: "5px" }}
             overlay={
               <Tooltip id={`tooltip-top`}>
-                <strong>{`Visit my ${media.name}`}</strong>
+                <strong>{`${media.msg}`}</strong>
               </Tooltip>
             }
           >
@@ -42,6 +65,7 @@ export default function socialMedia(props) {
             </a>
           </OverlayTrigger>
         );
+        }
       })}
     </div>
   );

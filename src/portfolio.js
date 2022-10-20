@@ -35,12 +35,25 @@ const socialMediaLinks = [
     link: "https://github.com/Ovler-Young",
     fontAwesomeIcon: "fab fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    msg: "Check out my Github",
   },
   {
     name: "Telegram",
     link: "https://t.me/Ovler",
     fontAwesomeIcon: "fab fa-telegram-plane", // Reference https://fontawesome.com/icons/telegram?style=brands
     backgroundColor: "#26A5E4", // Reference https://simpleicons.org/?q=linkedin
+    msg: "Send me a message on Telegram",
+    needimg: true,
+    img_path: "telegram.jpg",
+  },
+  {
+    name: "WeChat",
+    link: "https://share.180811.xyz/WeChat.jpg",
+    fontAwesomeIcon: "fab fa-weixin",
+    backgroundColor: "#7BB32E",
+    needimg: true,
+    img_path: "wechat.png",
+    msg: "Scan my WeChat QR code",
   },
   {
     name: "Gmail",
@@ -53,25 +66,22 @@ const socialMediaLinks = [
     link: "tel:+8615355021145",
     fontAwesomeIcon: "fas fa-phone", // Reference https://fontawesome.com/icons/phone?style=solid
     backgroundColor: "#00A1C6",
+    msg: "Call me",
   },
   {
     name: "Blog",
     link: "https://blog.180811.xyz",
     fontAwesomeIcon: "fas fa-rss",
     backgroundColor: "#FFA500",
+    msg: "Visit my blog",
   },
-  {
-    name: "WeChat",
-    link: "https://share.180811.xyz/WeChat.jpg",
-    fontAwesomeIcon: "fab fa-weixin",
-    backgroundColor: "#7BB32E",
-  },
-  {
-    name: "read.cv",
-    link: "https://read.cv/engineer",
-    fontAwesomeIcon: "fas fa-file-alt",
-    backgroundColor: "#FFA500",
-  },
+  //{
+  //  name: "read.cv",
+  //  link: "https://read.cv/engineer",
+  //  fontAwesomeIcon: "fas fa-file-alt",
+  //  backgroundColor: "#FFA500",
+  //  msg: "Read my CV",
+  //},
 ];
 
 const skills = {
