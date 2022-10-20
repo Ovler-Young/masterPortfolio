@@ -23,7 +23,7 @@
     "fs": "0.0.1-security",
     "gh-pages": "4.0.0",
     "graphql": "^14.7.0",
-    "jest-environment-jsdom": "^29.1.2",
+    "jest-environment-jsdom": "27.5.1",
     "node-fetch": "^2.6.7",
     "prettier-package-json": "^2.7.0",
     "radium": "^0.26.2",
