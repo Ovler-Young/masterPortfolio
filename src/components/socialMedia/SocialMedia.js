@@ -32,12 +32,9 @@ export default function socialMedia(props) {
                   />
               }
             >
-              <div className={`icon-button`}>
-                <IconWrapper {...media} {...props}>
-                  <i className={`${media.fontAwesomeIcon}`}></i>
-                </IconWrapper>
-                {/* <span></span> */}
-              </div>
+              <IconWrapper {...media} {...props} className={`icon-button`}>
+                <i className={`${media.fontAwesomeIcon}`}></i>
+              </IconWrapper>
             </OverlayTrigger>
           );
         } else {
