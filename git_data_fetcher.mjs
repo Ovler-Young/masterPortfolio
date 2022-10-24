@@ -10,7 +10,7 @@ const query_pr = {
   query: `
 	query {
 	  user(login: "${openSource.githubUserName}"){
-	    pullRequests(last: 100, orderBy: {field: CREATED_AT, direction: DESC}){
+	    pullRequests(last: 20, orderBy: {field: CREATED_AT, direction: ASC}) {
       totalCount
       nodes{
         id
@@ -47,7 +47,7 @@ const query_issue = {
   query: `query{
 
 		user(login: "${openSource.githubUserName}") {
-    issues(last: 100, orderBy: {field:CREATED_AT, direction: DESC}){
+    issues(last: 30, orderBy: {field:CREATED_AT, direction: ASC}){
       totalCount
       nodes{
       	id
@@ -150,8 +150,6 @@ fetch(baseUrl, {
       else closed++;
       // remove pr in my own repo. The username is coded in "data.baseRepository.owner.login"
       if (
-        cropped["data"][i]["baseRepository"]["owner"]["login"] ===
-          openSource.githubUserName ||
         cropped["data"][i]["baseRepository"]["owner"]["login"] === "luckypoem"
       ) {
         cropped["data"].splice(i, 1);
@@ -165,6 +163,7 @@ fetch(baseUrl, {
     cropped["totalCount"] = cropped["data"].length;
 
     console.log("Fetching the Pull Request Data.\n");
+    cropped["data"].reverse();      
     fs.writeFile(
       "./src/shared/opensource/pull_requests.json",
       JSON.stringify(cropped),
@@ -195,8 +194,6 @@ fetch(baseUrl, {
       else closed++;
       // remove issue in my own repo. The username is coded in "data.repository.owner.login"
       if (
-        cropped["data"][i]["repository"]["owner"]["login"] ===
-          openSource.githubUserName ||
         cropped["data"][i]["repository"]["owner"]["login"] === "poclass"
       ) {
         cropped["data"].splice(i, 1);
@@ -207,6 +204,7 @@ fetch(baseUrl, {
     cropped["open"] = open;
     cropped["closed"] = closed;
     cropped["totalCount"] = cropped["data"].length;
+    cropped["data"].reverse();      
 
     console.log("Fetching the Issues Data.\n");
     fs.writeFile(
