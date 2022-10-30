@@ -406,7 +406,7 @@ const experience = {
           duration: "June 2020 - PRESENT",
           location: "Hyderabad, Telangana",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Volunteered as a computer repair technician in the X-ware event every Friday night.\n Built an analysis system for the organization, undertook the task of analyzing data for the\n ARG game 'Cyber Civilisation Week' and essay competition 'March of Fireworks lantern'.\n Hosted the essay competition 'March of Fireworks lantern' website\n Write questions and host a website in the ARG activity 'Cyber Civilisation Week'",
           color: "#0879bf",
         },
         {
@@ -417,7 +417,7 @@ const experience = {
           duration: "May 2018 - Oct 2018",
           location: "Pune, Maharashtra",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "Reviewed, typeset and proofread materials for advanced mathematics, linear algebra, and inorganic chemistry as a volunteer to help coursemates with exams. Built and maintained the 'BUCTBASE', a free platform for college students to share course materials, which now gains more than 200 users per week. Answer questions for fresh students in the orientation group",
           color: "#9b1578",
         },
         {
@@ -428,7 +428,7 @@ const experience = {
           duration: "Nov 2017 - Dec 2017",
           location: "Ahmedabad, Gujarat",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+            "Repair computers for schoolmates.Built and maintained the 'BUCTHOLE'(Shut down now), an anonymous social platform for schoolmates that gained over 2 thousand users before shutting down. Taught about 10 apprentices with computer repairing technology. Wrote some tutorials for computer repairing.",
           color: "#fc1f20",
         },
       ],
@@ -444,7 +444,7 @@ const experience = {
           duration: "PRESENT",
           location: "Beijing, China",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "An AI toolbox to help video-based study, currently in development.",
           color: "#ee3c26",
         },
         {
@@ -456,7 +456,7 @@ const experience = {
           duration: "Nov 2021 - Apr 2022",
           location: "Work From Home",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+            "A platform to share course materials in my school. Used react to build this website and hosted on Vercel. (Chinese only right now)",
           color: "#0071C5",
         },
       ],
@@ -561,7 +561,7 @@ const experience = {
           duration: "June 2019 - April 2020",
           location: "Hyderabad, Telangana",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "Relevent Course: Python, Computing methods, Artificial Intelligence and Automation",
           color: "#4285F4",
         },
         {
@@ -572,7 +572,7 @@ const experience = {
           duration: "Aug 2019 - May 2020",
           location: "Hyderabad, Telangana",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+            "Selected Physics, Chemistry and Biology in the College Entrance Examination",
           color: "#D83B01",
         }
       ],
