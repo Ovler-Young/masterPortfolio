@@ -358,8 +358,8 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
+      title: "Driving Licence",
+      subtitle: "- C1",
       logo_path: "stanford_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
@@ -367,8 +367,8 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
+      title: "College English Test",
+      subtitle: "- Level 4",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
@@ -376,94 +376,13 @@ const certifications = {
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
+      title: "Cardiopulmonary Resuscitation",
+      subtitle: "",
       logo_path: "google_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
       alt_name: "Google",
       color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
     },
   ],
 };
@@ -471,19 +390,19 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Volunteership,Projects, Essay and Study",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have been working hard with my study, and do many Volunteership whenever availible. I have also worked with some well established people mostly as technicue. I love organising events and that is why I am also involved with many opensource communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Volunteerships",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
+          title: "Team leader,  full stack engineer, and computer repair technician",
+          company: "Student Network Center",
           company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
+          logo_path: "SNC_logo.png",
           duration: "June 2020 - PRESENT",
           location: "Hyderabad, Telangana",
           description:
@@ -492,9 +411,9 @@ const experience = {
         },
         {
           title: "Android and ML Developer",
-          company: "Muffito Incorporation",
+          company: "Zhadui Academic Club",
           company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
+          logo_path: "ZAC_logo.jpg",
           duration: "May 2018 - Oct 2018",
           location: "Pune, Maharashtra",
           description:
@@ -503,7 +422,7 @@ const experience = {
         },
         {
           title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
+          company: "北化新干线",
           company_url: "https://www.linkedin.com/company/freecopy/about/",
           logo_path: "freecopy_logo.png",
           duration: "Nov 2017 - Dec 2017",
@@ -515,26 +434,26 @@ const experience = {
       ],
     },
     {
-      title: "Internships",
+      title: "Projects",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
+          title: "Poclass",
+          company: "Poclass",
           company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          logo_path: "Poclass.png",
+          duration: "PRESENT",
+          location: "Beijing, China",
           description:
             "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
           color: "#ee3c26",
         },
         {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
+          title: "BUCTBASE",
+          company: "No",
           company_url:
             "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
+          logo_path: "buctbase.png",
+          duration: "Nov 2021 - Apr 2022",
           location: "Work From Home",
           description:
             "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
@@ -543,7 +462,35 @@ const experience = {
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Side Projects(WIP)",
+      experiences: [
+        {
+          title: "Poclass",
+          company: "Poclass",
+          company_url: "https://www.delhivery.com/",
+          logo_path: "Poclass.png",
+          duration: "PRESENT",
+          location: "Beijing, China",
+          description:
+            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+          color: "#ee3c26",
+        },
+        {
+          title: "BUCTBASE",
+          company: "No",
+          company_url:
+            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
+          logo_path: "buctbase.png",
+          duration: "Nov 2021 - Apr 2022",
+          location: "Work From Home",
+          description:
+            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+          color: "#0071C5",
+        },
+      ],
+    },
+    {
+      title: "Essay(WIP)",
       experiences: [
         {
           title: "Google Explore ML Facilitator",
@@ -601,6 +548,33 @@ const experience = {
             "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
           color: "#181717",
         },
+      ],
+    },
+    {
+      title: "Study",
+      experiences: [
+        {
+          title: "College Student",
+          company: "Beijing University of Chemical Technology",
+          company_url: "https://about.google/",
+          logo_path: "BUCT_logo.png",
+          duration: "June 2019 - April 2020",
+          location: "Hyderabad, Telangana",
+          description:
+            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+          color: "#4285F4",
+        },
+        {
+          title: "Highschool Student",
+          company: "Hangzhou No.4  highschool",
+          company_url: "https://www.microsoft.com/",
+          logo_path: "HZ4Z_logo.png",
+          duration: "Aug 2019 - May 2020",
+          location: "Hyderabad, Telangana",
+          description:
+            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+          color: "#D83B01",
+        }
       ],
     },
   ],

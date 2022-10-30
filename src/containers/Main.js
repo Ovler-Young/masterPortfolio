@@ -6,15 +6,18 @@ import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
+import Academic from "../pages/Academic/AcademicComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import clickEffect from "../components/click";
 
 export default class Main extends Component {
   render() {
     if (settings.isSplash) {
       return (
         <div>
+          <clickEffect></clickEffect>
           <HashRouter basename="/">
             <Switch>
               <Route
@@ -78,6 +81,7 @@ export default class Main extends Component {
     } else {
       return (
         <div>
+          <clickEffect></clickEffect>
           <HashRouter basename="/">
             <Switch>
               <Route
@@ -112,6 +116,12 @@ export default class Main extends Component {
                 path="/contact"
                 render={(props) => (
                   <Contact {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/academicplan"
+                render={(props) => (
+                  <Academic {...props} theme={this.props.theme} />
                 )}
               />
               {/* <Route
