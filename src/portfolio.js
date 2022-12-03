@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Oliver's Portfolio",
   description:
-    "In process bioprocess engineering student with experience and interest in computer engineering.",
+    "In process Bioprocessing engineering student with experience and interest in computer engineering.",
   og: {
     title: "Oliver Jin's Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "OliverJin",
   nickname: "Ovler",
   subTitle:
-    "In process bioprocess engineering student with experience and interest in computer engineering.",
+    "In process Bioprocessing engineering student with experience and interest in computer engineering.",
   resumeLink: "https://share.180811.xyz/Resume.pdf",
   portfolio_repository: "https://github.com/Ovler-Young/masterPortfolio",
   githubProfile: "https://github.com/Ovler-Young",
@@ -89,30 +89,16 @@ const skills = {
   data: [
     {
       title: "Bioprocessing Engineering",
-      fileName: "DataScienceImg", // TODO: Change this to your data science image
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Corrently learning in college",
-        "⚡ Experience of working with plant tissue culture and E. coli culture",
-        "⚡ Corrently focusing on Project 'Selection and breeding of high-yielding strains of ε-polylysine'",
-      ], // TODO: Change this to bioengineering skills
+        "📖 Corrently learning Bioprocessing Engineering in college",
+        "📝 Learned Linear Algebra, Computing method, Fundamental Chemistry, Organic Chemistry and many other courses",
+        "🥼 Experience of physical experiments, organic experiments, and Inorganic chemistry experiments",
+        "⚗️ Experience of working with lab equipment such as centrifuge, shaker, and autoclave",
+        "🔬 Experience of working with plant tissue culture and E. coli culture",
+        "🧫 Corrently, in this field, I'm focusing on Project 'Selection and breeding of high-yielding strains of ε-polylysine'",
+      ],
       softwareSkills: [
-        // TODO: Change to Matlab, R, Excel, etc.
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "R",
-          fontAwesomeClassname: "simple-icons:r",
-          style: {
-            backgroundColor: "transparent",
-            color: "#276DC3",
-          },
-        },
         {
           skillName: "Matlab",
           fontAwesomeClassname: "vscode-icons:file-type-matlab",
@@ -129,29 +115,72 @@ const skills = {
             color: "#276DC3",
           },
         },
+        {
+          skillName: "Word",
+          fontAwesomeClassname: "vscode-icons:file-type-word",
+          style: {
+            backgroundColor: "transparent",
+            color: "#276DC3",
+          },
+        },
+        {
+          skillName: "PowerPoint",
+          fontAwesomeClassname: "vscode-icons:file-type-powerpoint",
+          style: {
+            backgroundColor: "transparent",
+            color: "#276DC3",
+          },
+        },
+        // markdown
+        {
+          skillName: "Markdown",
+          fontAwesomeClassname: "vscode-icons:file-type-markdown",
+          style: {
+            backgroundColor: "transparent",
+            color: "#276DC3",
+          },
+        },
       ],
     },
     {
-      title: "Part-Timed Full Stack Development",
+      title: "IT Skills",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React and many other libraries",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node & Flask",
+        "👨‍🔧️ Volunteering in the activity 'X-ware' hosted by ' SNC(Student Network Center) ' and ' CCSN(Changcheng Student Network) ', Helps to fix  computer problems of students",
+        "🖥️ Responsible for the maintenance of the SNC on-campus server room since 2022 fall semester",
+        "🌐 Build responsive and open source website front end using React and many other libraries",
+        "☁️ Experience working on multiple cloud platforms",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "☁️ Self-hosting websites on my own VPS and cloud based saas solutions like Vercel",
       ],
       softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Vercel",
+          fontAwesomeClassname: "logos:vercel-icon",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
           style: {
             color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
           },
         },
         {
@@ -184,107 +213,14 @@ const skills = {
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "NextJS",
+          fontAwesomeClassname: "simple-icons:next-dot-js",
           style: {
-            color: "#663399",
+            color: "#000000",
           },
         },
       ],
     },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-        "⚡ Self-hosting websites on my own VPS and cloud based saas solutions like Vercel",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Vercel",
-          fontAwesomeClassname: "logos:vercel-icon",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
-    //  {
-    //    title: "UI/UX Design",
-    //    fileName: "DesignImg",
-    //    skills: [
-    //      "⚡ Designing highly attractive user interface for mobile and web applications",
-    //      "⚡ Customizing logo designs and building logos from scratch",
-    //      "⚡ Creating the flow of application functionalities to optimize user experience",
-    //    ],
-    //    softwareSkills: [
-    //      {
-    //        skillName: "Adobe XD",
-    //        fontAwesomeClassname: "simple-icons:adobexd",
-    //        style: {
-    //          color: "#FF2BC2",
-    //        },
-    //      },
-    //      {
-    //        skillName: "Figma",
-    //        fontAwesomeClassname: "simple-icons:figma",
-    //        style: {
-    //          color: "#F24E1E",
-    //        },
-    //      },
-    //      {
-    //        skillName: "Adobe Illustrator",
-    //        fontAwesomeClassname: "simple-icons:adobeillustrator",
-    //        style: {
-    //          color: "#FF7C00",
-    //        },
-    //      },
-    //      {
-    //        skillName: "Inkscape",
-    //        fontAwesomeClassname: "simple-icons:inkscape",
-    //        style: {
-    //          color: "#000000",
-    //        },
-    //      },
-    //    ],
-    //  },
   ],
 };
 
