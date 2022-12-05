@@ -34,7 +34,7 @@
 }
 
 .greeting-text {
-  margin-top: 80px;
+  margin-top: 0px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
@@ -47,9 +47,9 @@
 }
 
 .greeting-text-p {
-  font-size: 40px;
-  line-height: 40px;
-  margin-right: 40px;
+  font-size: 38px;
+  line-height: 38px;
+  margin-right: 38px;
   font-family: "Google Sans Medium";
 }
 
@@ -61,7 +61,7 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 40px;
   }
   .greeting-text-p {
     font-size: 20px;

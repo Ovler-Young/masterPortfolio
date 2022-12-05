@@ -51,8 +51,8 @@ export default function Greeting(props) {
               to="skills"
               spy={true}
               smooth={true}
-              offset={-70}
-              duration={500}
+              offset={0}
+              duration={1000}
               >
               <div className="portfolio-repo-btn-div">
                 <Button
