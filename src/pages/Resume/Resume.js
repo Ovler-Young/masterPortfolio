@@ -2,46 +2,56 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-import Educations from "../../containers/education/Educations";
-import Certifications from "../../containers/certifications/Certifications";
-import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
-import ResumeImg from "./ResumeImg";
-import { competitiveSites } from "../../portfolio";
-import { certifications } from "../../portfolio";
+import Button from "../../components/button/Button";
 import "./Resume.css";
 import { Fade } from "react-reveal";
+// pdf is located at https://share.180811.xyz/api/raw/?path=/Resume.pdf
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 class Education extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="education-main">
+      <div className="resume-main">
         <Header theme={this.props.theme} />
-        <div className="basic-education">
+        <div className="resume-body-div">
           <Fade bottom duration={2000} distance="40px">
-            <div className="heading-div">
-              <div className="heading-img-div">
-                {/* <img
-									src={require("../../assests/images/education.svg")}
-									alt=""
-								/> */}
-                <ResumeImg theme={theme} />
-              </div>
-              <div className="heading-text-div">
-                <h1 className="heading-text" style={{ color: theme.text }}>
-                  Education
+            <div className="resume-heading-div">
+              <div className="resume-heading-text-div">
+                <h1
+                  className="resume-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  My Resume
                 </h1>
-                <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifcations
-                </h3>
-                <CompetitiveSites logos={competitiveSites.competitiveSites} />
+                <p
+                  className="resume-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  This is preview of my resume. You can download it from the
+                  bottom below:
+                </p>
+                <div className="resume-button-div">
+                <Button
+                  text="Download"
+                  className="resume-button"
+                  href="https://share.180811.xyz/api/raw/?path=/Resume.pdf"
+                  newTab={true}
+                  theme={theme}
+                />
+                </div>
               </div>
             </div>
           </Fade>
-          <Educations theme={this.props.theme} />
-          {certifications.certifications.length > 0 ? (
-            <Certifications theme={this.props.theme} />
-          ) : null}
+          <div className="resume-pdf-div">
+            <Document
+              file="https://share.180811.xyz/api/raw/?path=/Resume.pdf"
+            >
+              <Page pageNumber={1} />
+              <Page pageNumber={2} />
+            </Document>
+          </div>
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />

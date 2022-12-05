@@ -27,6 +27,7 @@
 }
 
 .header li a:hover,
+.header li p:hover,
 .header .menu-btn:hover {
   background-color: #A6E1FA; 
 }

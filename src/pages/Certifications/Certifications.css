@@ -2,39 +2,39 @@
   width: 100%;
 }
 
-.projects-main {
+.certification-main {
   width: 100%;
   text-align: center;
 }
 
-.basic-projects {
+.basic-certification {
   margin-left: 5%;
   margin-right: 5%;
 }
 
-.projects-heading-div {
+.certification-heading-div {
   display: flex;
 }
 
-.projects-heading-div > * {
+.certification-heading-div > * {
   flex: 1;
 }
 
-.projects-heading-img-div {
+.certification-heading-img-div {
   align-items: center;
   justify-content: center;
 }
 
-.projects-heading-text-div {
+.certification-heading-text-div {
   text-align: center;
 }
 
-.projects-heading-img-div > * {
+.certification-heading-img-div > * {
   max-width: 100%;
   height: auto;
 }
 
-.projects-heading-text {
+.certification-heading-text {
   font-size: 65px;
   font-weight: 400;
   font-family: "Google Sans Medium";
@@ -43,14 +43,14 @@
   margin-top: 80px;
 }
 
-.projects-heading-sub-text {
+.certification-heading-sub-text {
   font-size: 30px;
   font-family: "Google Sans Regular";
   text-align: center;
   margin-bottom: 10px;
 }
 
-.projects-header-detail-text {
+.certification-header-detail-text {
   font-size: 20px;
   line-height: 30px;
   margin-top: 0px;
@@ -79,31 +79,31 @@
 }
 
 @media (max-width: 1380px) {
-  .projects-heading-text {
+  .certification-heading-text {
     font-size: 50px;
     margin-top: 80px;
   }
-  .projects-heading-sub-text {
+  .certification-heading-sub-text {
     font-size: 25px;
   }
 }
 
 @media (max-width: 768px) {
-  .projects-heading-text,
+  .certification-heading-text,
   .publications-heading-text {
     font-size: 30px;
     margin-top: 20px;
   }
 
-  .projects-heading-sub-text {
+  .certification-heading-sub-text {
     font-size: 20px;
   }
 
-  .projects-heading-div {
+  .certification-heading-div {
     flex-direction: column;
   }
 
-  .projects-header-detail-text {
+  .certification-header-detail-text {
     font-size: 16px;
     margin-right: 0px;
     margin-left: 0px;

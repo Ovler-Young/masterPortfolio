@@ -11,8 +11,11 @@ import Labs from "../pages/Labs/Labs";
 import Classes from "../pages/Classes/Classes";
 import Certification from "../pages/Certifications/Certifications";
 import Projects from "../pages/projects/Projects";
+import Resume from "../pages/Resume/Resume";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import clickEffect from "../components/click";
+
 
 export default class Main extends Component {
   render() {
@@ -163,6 +166,12 @@ export default class Main extends Component {
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/resume"
+                render={(props) => (
+                  <Resume {...props} theme={this.props.theme} />
                 )}
               />
               <Route

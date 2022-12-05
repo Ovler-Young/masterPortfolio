@@ -8,9 +8,8 @@ import "./Certifications.css";
 
 class Certification extends Component {
   render() {
-    const theme = this.props.theme;
     return (
-      <div className="education-main">
+      <div className="certification-main">
         <Header theme={this.props.theme} />
         <Fade bottom duration={2000} distance="40px">
         <Certifications theme={this.props.theme} />

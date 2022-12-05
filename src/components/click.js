@@ -30,7 +30,7 @@ function clickEffect() {
         }, false);
         window.addEventListener("mouseup", function(e) {
             clearInterval(longPress);
-            if (longPressed === true) {
+            if (longPressed == true) {
                 document.body.classList.remove("is-longpress");
                 pushBalls(randBetween(50 + Math.ceil(multiplier), 100 + Math.ceil(multiplier)), e.clientX, e.clientY);
                 longPressed = false;
@@ -70,7 +70,7 @@ function clickEffect() {
             this.x = x;
             this.y = y;
             this.angle = Math.PI * 2 * Math.random();
-            if (longPressed === true) {
+            if (longPressed == true) {
                 this.multiplier = randBetween(14 + multiplier, 15 + multiplier);
             } else {
                 this.multiplier = randBetween(6, 12);
@@ -113,7 +113,7 @@ function clickEffect() {
             ctx.fill();
             b.update();
         }
-        if (longPressed === true) {
+        if (longPressed == true) {
             multiplier += 0.2;
         } else if (!longPressed && multiplier >= 0) {
             multiplier -= 0.4;
@@ -132,4 +132,3 @@ function clickEffect() {
     }
 }
 export default clickEffect;
-clickEffect();

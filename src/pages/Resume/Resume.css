@@ -1,8 +1,26 @@
-.education-main {
+.resume-main {
   width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.basic-education {
+.resume-heading-text-div {
+  text-align: center;
+  font-family: "Google Sans Regular";
+  margin-top: 10px;
+}
+.resume-button-div {
+  float: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+
+.basic-resume {
   margin-left: 5%;
   margin-right: 5%;
 }

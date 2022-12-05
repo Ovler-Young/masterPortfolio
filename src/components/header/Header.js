@@ -50,17 +50,17 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
-                <a
-                  href="https://share.180811.xyz/Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <NavLink
+                  to="/resume"
+                  className="umami--click--resume-from-menu"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
-                  className="umami--click--resume-from-menu"
                 >
                   Resume
-                </a>
+                </NavLink>
               </li>
               <li className="dropdown">
                 <NavLink
@@ -161,7 +161,7 @@ class Header extends Component {
               </li>
               <li className="dropdown">
                 <NavLink
-                  to="/others"
+                  to="/"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}

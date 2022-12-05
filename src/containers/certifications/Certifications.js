@@ -7,7 +7,7 @@ class Certifications extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="main">
+      <div className="main-cert">
         <div className="certs-header-div">
             <h1 className="certs-header" style={{ color: theme.text }}>
               Certifications

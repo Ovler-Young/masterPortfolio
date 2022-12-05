@@ -3,12 +3,19 @@
   line-height: 1.1;
   font-family: "Google Sans Regular";
   text-align: center;
+  margin: 5%;
+}
+
+.main-cert {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .certs-body-div {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: auto;  
 }
 
 @media (max-width: 1380px) {
