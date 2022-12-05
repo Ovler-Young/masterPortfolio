@@ -14,6 +14,7 @@ import Projects from "../pages/projects/Projects";
 import Resume from "../pages/Resume/Resume";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+// eslint-disable-next-line
 import clickEffect from "../components/click";
 
 
