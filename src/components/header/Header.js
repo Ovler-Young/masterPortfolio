@@ -88,7 +88,7 @@ class Header extends Component {
                     Certifications
                   </NavLink>
                   <NavLink to="/education" tag={Link} style={{ color: theme.text }}>
-                    Eeducation
+                    Education
                   </NavLink>
                   <NavLink to="/classes" tag={Link} style={{ color: theme.text }}>
                     Classes

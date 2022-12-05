@@ -52,7 +52,7 @@ export default function Greeting(props) {
               spy={true}
               smooth={true}
               offset={0}
-              duration={1000}
+              duration={600}
               >
               <div className="portfolio-repo-btn-div">
                 <Button

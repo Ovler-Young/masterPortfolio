@@ -7,6 +7,8 @@ import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+import Button from "../../components/button/Button";
+import { Link } from "react-scroll";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
@@ -33,7 +35,22 @@ class SkillSection extends Component {
                     src={require(`../../assests/images/${skill.imagePath}`)}
                   ></img> */}
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  <Link
+                    activeClass="active"
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={800}
+                    duration={600}
+                    >
+                    <Button
+                      text="👇 Scroll Down"
+                      theme={theme}
+                      className="portfolio-repo-btn umami--click--next-button-from-home"
+                    />
+                  </Link>
                 </div>
+                {/* Add a bottum to next*/}
               </Fade>
 
               <div className="skills-text-div">
