@@ -76,10 +76,10 @@
     text-align: center;
   }
   .skills-image-div {
-    /* display: none; */
-    order: 2;
+    display: none;
   }
   .skills-image-div > * {
     margin-top: 0px;
+    display: none;
   }
 }

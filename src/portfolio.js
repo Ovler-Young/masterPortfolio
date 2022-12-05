@@ -296,29 +296,20 @@ const certifications = {
     {
       title: "Driving Licence",
       subtitle: "- C1",
-      logo_path: "stanford_logo.png",
+      logo_path: "drive.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
       alt_name: "Stanford University",
-      color_code: "#8C151599",
+      color_code: "#1ACAA8",
     },
     {
       title: "College English Test",
       subtitle: "- Level 4",
-      logo_path: "deeplearning_ai_logo.png",
+      logo_path: "CET.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Cardiopulmonary Resuscitation",
-      subtitle: "",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+      alt_name: "CET.png",
+      color_code: "#FFFFFF",
     },
   ],
 };
@@ -605,6 +596,86 @@ const contactPageData = {
   },
 };
 
+const labs = {
+  title: "Labs",
+  subtitle:
+    "I have worked in a few labs in BUCT. I have worked with some amazing classmates there. I had learned a lot from them.",
+  data: [
+    {
+      id: "1",
+      title: "IOT Lab",
+      subtitle: "Loc: BUCT, Beijing",
+      image_path: "iotlab.jpg",
+      description:
+        "I learned in that lab during the course 'Artificial Intelligence and Automation'. I learned how to use AliCloud functions to build a monitoring system for the lab and basic usage of Node-RED , the MQTT protocol, the PLC protocol and the way to use the S7-1200 PLC.",
+    },
+    {
+      id: "2",
+      title: "Microbiology Lab",
+      subtitle: "Loc: BUCT, Beijing",
+      image_path: "micro.jpg",
+      description:
+        "Focusing on project ''Selection and breeding of high-yielding strains of ε-polylysine', I learned the basic knowledge of microbiology and the way to use the equipment in the lab.",
+    },
+    {
+      id: "3",
+      title: "Organic Lab",
+      subtitle: "Loc: BUCT, Beijing",
+      image_path: "organic.jpg",
+      description:
+        "Focusing on project ''Synthesis of 2,4,6-trisubstituted pyrimidines and their biological activities', I learned the basic knowledge of organic chemistry and the way to use the equipment in the lab.",
+    },
+  ],
+};
+
+const classes = {
+  title: "Classes",
+  subtitle:
+    "I have taken some classes in BUCT. I have learned a lot from them. So I list some of which I found very helpful in my future career.",
+  data: [
+    {
+      id: "1",
+      title: "Artificial Intelligence and Automation",
+      subtitle: "Teacher: Li Dazi",
+      description:
+        "For the automation part, I learned the basic of PLC control.  For the AI part, I learned the basic knowledge of AI and the way to use the AI tools in the lab.",
+    },
+    {
+      id: "2",
+      title: "Advanced English",
+      subtitle: "Teacher: Dr. Shu-Ju Diana Tai",
+      description:
+        "Help me a lot in improving my communicative English and 21st century skills",
+    },
+    {
+      id: "3",
+      title: "Industrial Bioprocessing",
+      subtitle: "Teacher: Dr. Deepak Kumar",
+      description:
+        "Interduce me to the basic knowledge of bioprocessing",
+    },
+    {
+      id: "4",
+      title: "Organic Chemistry",
+      subtitle: "Teacher: Dr. Cheng Ning",
+      description: "",
+    },
+    {
+      id: "5",
+      title: "Linear Algebra",
+      subtitle: "Teacher: Dr. Zhang Zhigang",
+      description: "",
+    },
+    {
+      id: "6",
+      title: "Spoken English",
+      subtitle: "Teacher: Dr. Mary Frances Cappiello",
+      description: "",
+    },
+  ]
+}
+
+
 export {
   settings,
   seo,
@@ -619,4 +690,6 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  labs,
+  classes,
 };

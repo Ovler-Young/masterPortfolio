@@ -7,6 +7,9 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Academic from "../pages/Academic/AcademicComponent";
+import Labs from "../pages/Labs/Labs";
+import Classes from "../pages/Classes/Classes";
+import Certification from "../pages/Certifications/Certifications";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
@@ -68,6 +71,12 @@ export default class Main extends Component {
                 )}
               />
               <Route
+                path="/labs"
+                render={(props) => (
+                  <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
                 path="*"
                 render={(props) => (
                   <Error404 {...props} theme={this.props.theme} />
@@ -121,6 +130,24 @@ export default class Main extends Component {
                 path="/academicplan"
                 render={(props) => (
                   <Academic {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/labs"
+                render={(props) => (
+                  <Labs {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/classes"
+                render={(props) => (
+                  <Classes {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/certification"
+                render={(props) => (
+                  <Certification {...props} theme={this.props.theme} />
                 )}
               />
               {/* <Route

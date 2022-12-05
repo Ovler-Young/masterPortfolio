@@ -76,9 +76,26 @@ class Header extends Component {
                   <i className="fa fa-caret-down"></i>
                 </NavLink>
                 <div className="dropdown-content">
-                  <a href="/#/education">Education</a>
-                  <a href="/#/classes">Classes</a>
-                  <a href="/#/labs">Labs</a>
+                  <NavLink
+                    to="/learningphilosophy"
+                    tag={Link}
+                    style={{ color: theme.text }}
+                    className="umami--click--learningphilosophy-from-menu"
+                    >
+                    Learning Philosophy
+                  </NavLink>
+                  <NavLink to="/certification" tag={Link} style={{ color: theme.text }}>
+                    Certifications
+                  </NavLink>
+                  <NavLink to="/education" tag={Link} style={{ color: theme.text }}>
+                    Eeducation
+                  </NavLink>
+                  <NavLink to="/classes" tag={Link} style={{ color: theme.text }}>
+                    Classes
+                  </NavLink>
+                  <NavLink to="/labs" tag={Link} style={{ color: theme.text }}>
+                    Labs
+                  </NavLink>
                 </div>
               </li>
               <li className="dropdown">
@@ -95,11 +112,38 @@ class Header extends Component {
                   <i className="fa fa-caret-down"></i>
                 </NavLink>
                 <div className="dropdown-content">
-                  <a href="/#/Volunteer">Volunteer</a>
-                  <a href="/#/projects">Projects</a>
-                  <a href="/#/essay">Essay</a>
-                  <a href="/#/academicplan">Study</a>
-
+                  <NavLink
+                    to="/Volunteer"
+                    tag={Link}
+                    style={{ color: theme.text }}
+                    className="umami--click--volunteer-from-menu"
+                    >
+                    Volunteer
+                  </NavLink>
+                  <NavLink
+                    to="/projects"
+                    tag={Link}
+                    style={{ color: theme.text }}
+                    className="umami--click--projects-from-menu"
+                    >
+                    Projects
+                  </NavLink>
+                  <NavLink
+                    to="/essay"
+                    tag={Link}
+                    style={{ color: theme.text }}
+                    className="umami--click--essay-from-menu"
+                    >
+                    Essay
+                  </NavLink>
+                  <NavLink
+                    to="/academicplan"
+                    tag={Link}
+                    style={{ color: theme.text }}
+                    className="umami--click--academicplan-from-menu"
+                    >
+                    Study
+                  </NavLink>
                 </div>
               </li>
               <li>
@@ -129,9 +173,30 @@ class Header extends Component {
                   <i className="fa fa-caret-down"></i>
                 </NavLink>
                 <div className="dropdown-content">
-                  <a href="/#/learningphilosophy">Learning Philosophy</a>
-                  <a href="/#/reflection">Reflection</a>
-                  <a href="/#/hobbies">Hobbies</a>
+                  <NavLink
+                    to="/reflection"
+                    tag={Link}
+                    style={{ color: theme.text }}
+                    className="umami--click--reflection-from-menu"
+                    >
+                    Reflection
+                  </NavLink>
+                  <NavLink
+                    to="/Hobbies"
+                    tag={Link}
+                    style={{ color: theme.text }}
+                    className="umami--click--hobbies-from-menu"
+                    >
+                    Hobbies
+                  </NavLink>
+                  <a
+                    href="https://hexo.180811.xyz/"
+                    tag={Link}
+                    style={{ color: theme.text }}
+                    className="umami--click--blog-from-menu"
+                    >
+                    Blog
+                  </a>
                 </div>
               </li>
               <li>
