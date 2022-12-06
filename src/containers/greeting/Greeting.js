@@ -32,7 +32,8 @@ export default function Greeting(props) {
                 <Button
                   text="📁 Read My Resume(PDF)"
                   newTab={true}
-                  href={greeting.resumeLink}
+                  // redrect to /resume
+                  href="https://portfolio.180811.xyz/#/resume"
                   theme={theme}
                   className="portfolio-repo-btn umami--click--resume-button-from-home"
                 />
