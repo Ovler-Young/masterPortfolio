@@ -2,12 +2,9 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-import BlogsImg from "../contact/BlogsImg";
-import Button from "../../components/button/Button";
 
 import { Fade } from "react-reveal";
 import "./stylevol.css";
-import { images } from "../../portfolio.js";
 
 class Reflectiom extends Component {
   render() {
