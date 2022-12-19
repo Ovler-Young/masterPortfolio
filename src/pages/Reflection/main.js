@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import "./style.css";
+import "./styleref.css";
 import { images } from "../../portfolio.js";
 
 class Reflectiom extends Component {

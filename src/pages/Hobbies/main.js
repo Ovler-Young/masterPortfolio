@@ -6,7 +6,7 @@ import BlogsImg from "../contact/BlogsImg";
 import Button from "../../components/button/Button";
 
 import { Fade } from "react-reveal";
-import "./style.css";
+import "./stylehob.css";
 import { images } from "../../portfolio.js";
 
 class Reflectiom extends Component {
@@ -54,31 +54,31 @@ class Reflectiom extends Component {
             </div>
           </Fade>
           <Fade bottom duration={1000} distance="40px">
-            <div className="blog-heading-div">
-              <div className="blog-heading-text-div">
+            <div className="hobby-heading-div">
+              <div className="hobby-heading-text-div">
                 <p>———————————————————————————————</p>
-                <h1 className="blog-heading-text" style={{ color: theme.text }}>
+                <h1 className="hobby-heading-text" style={{ color: theme.text }}>
                   Blogs
                 </h1>
                 <p
-                  className="blog-header-detail-text subTitle"
+                  className="hobby-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  I wrote my own blogs for hobbies, and I have some artical for a student orgnication called Student Network Center to share some tips.
+                  I wrote my own hobbys for hobbies, and I have some artical for a student orgnication called Student Network Center to share some tips.
                 </p>
-                <div className="blogsite-btn-div">
+                <div className="hobbysite-btn-div">
                   <Button
                     text="Visit My Blogsite"
                     newTab={true}
                     href="https://hexo.180811.xyz/"
                     theme={theme}
-                    className="umami--click--blogsite-btn-in-contact-page"
+                    className="umami--click--hobbysite-btn-in-contact-page"
                   />
                 </div>
               </div>
-              <div className="blog-heading-img-div">
+              <div className="hobby-heading-img-div">
                 {/* <img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
+											src={require(`../../assests/images/${hobbySection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
                 <BlogsImg theme={theme} />
@@ -112,13 +112,13 @@ class Reflectiom extends Component {
                 >
                   I had recorded more than 50 videos to teach my club members how to use some software, such as algin in Word, use of Mathtype and AxMath.
                   </p>
-                <div className="blogsite-btn-div">
+                <div className="hobbysite-btn-div">
                   <Button
                     text="Click to watch some tutorials"
                     newTab={true}
                     href="https://zacfiles.180811.xyz/zh-CN/"
                     theme={theme}
-                    className="umami--click--blogsite-btn-in-contact-page"
+                    className="umami--click--hobbysite-btn-in-contact-page"
                   />
                 </div>
               </div>

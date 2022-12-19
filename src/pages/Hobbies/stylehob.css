@@ -11,7 +11,7 @@
   display: flex;
 }
 
-.blog-heading-div {
+.hobby-heading-div {
   display: flex;
   font: 200 16px/1.5 "Google Sans Regular", sans-serif;
 }
@@ -21,7 +21,7 @@
   margin-top: 80px;
 }
 
-.blog-heading-div > * {
+.hobby-heading-div > * {
   flex: 1;
 }
 
@@ -38,7 +38,7 @@
   justify-content: center;
 }
 
-.blog-heading-img-div {
+.hobby-heading-img-div {
   align-items: center;
   justify-content: center;
 }
@@ -47,7 +47,7 @@
   text-align: left;
 }
 
-.blog-heading-text-div {
+.hobby-heading-text-div {
   text-align: center;
 }
 
@@ -62,7 +62,7 @@
   margin-bottom: 10%;
 }
 
-.blog-heading-img-div > * {
+.hobby-heading-img-div > * {
   max-width: 100%;
   height: auto;
 }
@@ -76,7 +76,7 @@
   margin-top: 20px;
 }
 
-.blog-heading-text {
+.hobby-heading-text {
   font-size: 56px;
   font-weight: 400;
   font-family: "Google Sans Medium";
@@ -101,7 +101,7 @@
   font-family: "Google Sans Medium";
 }
 
-.blog-header-detail-text {
+.hobby-header-detail-text {
   font-size: 24px;
   line-height: 30px;
   margin-top: 0px;
@@ -117,7 +117,7 @@
   justify-content: center;
 }
 
-.blogsite-btn-div {
+.hobbysite-btn-div {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -136,7 +136,7 @@
     margin-top: 20px;
   }
 
-  .blog-heading-text {
+  .hobby-heading-text {
     font-size: 50px;
     margin-top: 40px;
   }
@@ -148,7 +148,7 @@
     margin-top: 0px;
   }
 
-  .blog-heading-text {
+  .hobby-heading-text {
     font-size: 30px;
     margin-top: 0px;
   }
@@ -157,7 +157,7 @@
     font-size: 20px;
   }
 
-  .blog-heading-div {
+  .hobby-heading-div {
     flex-direction: column-reverse;
     margin-top: 60px;
   }
@@ -167,7 +167,7 @@
     margin-top: 60px;
   }
 
-  .blog-heading-text-div {
+  .hobby-heading-text-div {
     margin-top: 40px;
   }
 
@@ -187,7 +187,7 @@
     text-align: center;
   }
 
-  .blog-header-detail-text {
+  .hobby-header-detail-text {
     font-size: 16px;
     margin-left: 0px;
     margin-right: 0px;

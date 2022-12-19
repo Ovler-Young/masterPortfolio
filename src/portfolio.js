@@ -360,7 +360,7 @@ const experience = {
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
+          title: "Team leader and Software Teacher",
           company: "Zhadui Academic Club",
           company_url: "https://www.linkedin.com/company/muffito-inc/about/",
           logo_path: "ZAC_logo.jpg",

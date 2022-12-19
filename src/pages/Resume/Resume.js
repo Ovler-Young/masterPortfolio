@@ -5,7 +5,6 @@ import TopButton from "../../components/topButton/TopButton";
 import Button from "../../components/button/Button";
 import "./Resume.css";
 import { Fade } from "react-reveal";
-// pdf is located at https://share.180811.xyz/api/raw/?path=/Resume.pdf
 import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 

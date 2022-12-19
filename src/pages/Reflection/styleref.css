@@ -3,8 +3,8 @@
 }
 
 .basic-contact {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .contact-heading-div {
@@ -13,7 +13,6 @@
 
 .blog-heading-div {
   display: flex;
-  font: 200 16px/1.5 "Google Sans Regular", sans-serif;
 }
 
 .address-heading-div {
@@ -60,8 +59,8 @@
 }
 
 .blog-heading-img-div > * {
-  max-width: 100%;
-  height: auto;
+  max-width: 70%;
+  max-height: 100px;
 }
 
 .contact-heading-text {
