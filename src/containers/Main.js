@@ -23,7 +23,6 @@ export default class Main extends Component {
     if (settings.isSplash) {
       return (
         <div>
-          <clickEffect></clickEffect>
           <HashRouter basename="/">
             <Switch>
               <Route

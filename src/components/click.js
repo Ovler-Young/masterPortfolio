@@ -30,7 +30,6 @@ function clickEffect() {
         }, false);
         window.addEventListener("mouseup", function(e) {
             clearInterval(longPress);
-            // eslint-disable-next-line
             if (longPressed == true) {
                 document.body.classList.remove("is-longpress");
                 pushBalls(randBetween(50 + Math.ceil(multiplier), 100 + Math.ceil(multiplier)), e.clientX, e.clientY);
@@ -71,7 +70,6 @@ function clickEffect() {
             this.x = x;
             this.y = y;
             this.angle = Math.PI * 2 * Math.random();
-            // eslint-disable-next-line
             if (longPressed == true) {
                 this.multiplier = randBetween(14 + multiplier, 15 + multiplier);
             } else {
@@ -115,7 +113,6 @@ function clickEffect() {
             ctx.fill();
             b.update();
         }
-        // eslint-disable-next-line
         if (longPressed == true) {
             multiplier += 0.2;
         } else if (!longPressed && multiplier >= 0) {
@@ -135,3 +132,4 @@ function clickEffect() {
     }
 }
 export default clickEffect;
+clickEffect();
