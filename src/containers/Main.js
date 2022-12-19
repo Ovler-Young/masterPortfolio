@@ -17,6 +17,8 @@ import Reflection from "../pages/Reflection/main";
 import Hobbies from "../pages/Hobbies/main";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import Skills from "../pages/Skills/Skills";
+import Volunteer from "../pages/volunteer/main";
 // eslint-disable-next-line
 import clickEffect from "../components/click";
 
@@ -161,6 +163,12 @@ export default class Main extends Component {
                   <Certification {...props} theme={this.props.theme} />
                 )}
               />
+              <Route
+                path="/skills"
+                render={(props) => (
+                  <Skills {...props} theme={this.props.theme} />
+                )}
+              />
               {/* <Route
 							path="/splash"
 							render={(props) => (
@@ -192,6 +200,12 @@ export default class Main extends Component {
                 path="/reflection"
                 render={(props) => (
                   <Reflection {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/volunteer"
+                render={(props) => (
+                  <Volunteer {...props} theme={this.props.theme} />
                 )}
               />
               <Route

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect}from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -6,6 +6,7 @@ import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { Link } from "react-scroll";
 import FeelingProud from "./FeelingProud";
+import ReactAudioPlayer from 'react-audio-player';
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -66,14 +67,20 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
-            <FeelingProud theme={theme} />
+           <FeelingProud theme={theme} />
+           <div className="voice">
+           <ReactAudioPlayer
+              src="https://share.180811.xyz/api/raw/?path=/for_blog/record.m4a"
+              autoPlay={true}
+              controls={true}
+              preload="auto"
+
+            />
+            </div>
           </div>
         </div>
       </div>
     </Fade>
   );
 }
+

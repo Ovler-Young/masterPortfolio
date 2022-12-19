@@ -129,14 +129,6 @@ class Header extends Component {
                     Projects
                   </NavLink>
                   <NavLink
-                    to="/essay"
-                    tag={Link}
-                    style={{ color: theme.text }}
-                    className="umami--click--essay-from-menu"
-                    >
-                    Essay
-                  </NavLink>
-                  <NavLink
                     to="/academicplan"
                     tag={Link}
                     style={{ color: theme.text }}
@@ -173,6 +165,14 @@ class Header extends Component {
                   <i className="fa fa-caret-down"></i>
                 </NavLink>
                 <div className="dropdown-content">
+                  <NavLink
+                    to="/skills"
+                    tag={Link}
+                    style={{ color: theme.text }}
+                    className="umami--click--reflection-from-menu"
+                    >
+                    Skills
+                  </NavLink>
                   <NavLink
                     to="/reflection"
                     tag={Link}
