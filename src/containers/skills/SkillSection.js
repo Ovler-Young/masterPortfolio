@@ -40,6 +40,20 @@ class SkillSection extends Component {
                     to="skills"
                     spy={true}
                     smooth={true}
+                    offset={-800}
+                    duration={600}
+                    >
+                    <Button
+                      text="👆 Scroll To Top"
+                      theme={theme}
+                      className="portfolio-repo-btn umami--click--next-button-from-home"
+                    />
+                  </Link>
+                  <Link
+                    activeClass="active"
+                    to="skills"
+                    spy={true}
+                    smooth={true}
                     offset={800}
                     duration={600}
                     >

@@ -12,6 +12,9 @@ import Classes from "../pages/Classes/Classes";
 import Certification from "../pages/Certifications/Certifications";
 import Projects from "../pages/projects/Projects";
 import Resume from "../pages/Resume/Resume";
+import Learningphilosophy from "../pages/Learningphilosophy/Learningphilosophy";
+import Reflection from "../pages/Reflection/main";
+import Hobbies from "../pages/Hobbies/main";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 // eslint-disable-next-line
@@ -96,6 +99,11 @@ export default class Main extends Component {
           <HashRouter basename="/">
             <Switch>
               <Route
+                path="/hobbies"
+                exact
+                render={(props) => <Hobbies {...props} theme={this.props.theme} />}
+              />
+              <Route
                 path="/"
                 exact
                 render={(props) => <Home {...props} theme={this.props.theme} />}
@@ -172,6 +180,18 @@ export default class Main extends Component {
                 path="/resume"
                 render={(props) => (
                   <Resume {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/learningphilosophy"
+                render={(props) => (
+                  <Learningphilosophy {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/reflection"
+                render={(props) => (
+                  <Reflection {...props} theme={this.props.theme} />
                 )}
               />
               <Route

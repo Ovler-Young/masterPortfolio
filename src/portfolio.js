@@ -602,7 +602,7 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.", //TODO
+      "I wrote my own blogs for hobbies", //TODO
     link: "https://hexo.180811.xyz",
     avatar_image_path: "blogs_image.svg",
   },
@@ -618,6 +618,23 @@ const contactPageData = {
     phone: ["+86 153 5502 1145", "+1 937 985 2118"],
   },
 };
+
+const learningphilosophy = {
+  contactSection: {
+    title: "Learning Philosophy",
+    profile_image_path: "undraw_scientist_re_fs04.svg",
+    description:
+      "As a second year college student in biochemistry engineering, my learning philosophy is centered on the idea that education is a lifelong journey. I believe that it is important to approach each new subject or topic with an open and curious mindset, and to be willing to put in the hard work and dedication required to truly understand and master the material."
+  },
+};
+
+const images = {
+  projects: "projects_image.svg",
+  blogs: "blogs_image.svg",
+  reflection: "undraw_ideas_re_7twj.svg",
+  ace: "ace.png",
+  teaching: "undraw_speech_to_text_re_8mtf.svg",
+}
 
 const labs = {
   title: "Labs",
@@ -715,4 +732,6 @@ export {
   contactPageData,
   labs,
   classes,
+  learningphilosophy,
+  images,
 };
