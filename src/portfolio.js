@@ -47,6 +47,20 @@ const socialMediaLinks = [
     img_path: "telegram.jpg",
   },
   {
+    name: "Bangumi",
+    link: "https://bgm.tv/user/711741",
+    fontAwesomeIcon: "fas fa-tv",
+    backgroundColor: "#ff2d90",
+    msg: "Catch me on Bangumi",
+  },
+  {
+    name: "Steam",
+    link: "https://steamcommunity.com/profiles/76561198979738568/",
+    fontAwesomeIcon: "fab fa-steam",
+    backgroundColor: "#000000",
+    msg: "Catch me on Steam",
+  },
+  {
     name: "WeChat",
     link: "https://share.180811.xyz/WeChat.jpg",
     fontAwesomeIcon: "fab fa-weixin",
@@ -56,11 +70,13 @@ const socialMediaLinks = [
     msg: "Scan my WeChat QR code",
   },
   {
-    name: "Gmail",
-    link: "mailto://ovlertheyoung@gmail.com",
-    fontAwesomeIcon: "fas fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-    msg: "Send me an email",
+    name: "qq",
+    link: "https://share.180811.xyz/qq.jpg",
+    fontAwesomeIcon: "fab fa-qq",
+    backgroundColor: "#f9ae08",
+    needimg: true,
+    img_path: "qq.jpg",
+    msg: "Scan my QQ QR code",
   },
   {
     name: "Telephone",
@@ -70,9 +86,16 @@ const socialMediaLinks = [
     msg: "Call me",
   },
   {
+    name: "Gmail",
+    link: "mailto://ovlertheyoung@gmail.com",
+    fontAwesomeIcon: "fas fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    msg: "Send me an email",
+  },
+  {
     name: "Blog",
     link: "https://blog.180811.xyz",
-    fontAwesomeIcon: "fas fa-rss",
+    fontAwesomeIcon: "fas fa-blog",
     backgroundColor: "#FFA500",
     msg: "Visit my blog",
   },
