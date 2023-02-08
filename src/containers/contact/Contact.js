@@ -26,6 +26,10 @@ export default function Contact() {
             <br />
             <br />
             <SocialMedia />
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+              <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+              <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ovler/get-me-into-touch'});return false;">Schedule time with me</a>
+            </link>
           </div>
         </div>
         <div className="contact-image-div">
