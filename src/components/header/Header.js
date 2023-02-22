@@ -76,14 +76,6 @@ class Header extends Component {
                   <i className="fa fa-caret-down"></i>
                 </NavLink>
                 <div className="dropdown-content">
-                  <NavLink
-                    to="/learningphilosophy"
-                    tag={Link}
-                    style={{ color: theme.text }}
-                    className="umami--click--learningphilosophy-from-menu"
-                    >
-                    Learning Philosophy
-                  </NavLink>
                   <NavLink to="/certification" tag={Link} style={{ color: theme.text }}>
                     Certifications
                   </NavLink>
@@ -169,17 +161,9 @@ class Header extends Component {
                     to="/skills"
                     tag={Link}
                     style={{ color: theme.text }}
-                    className="umami--click--reflection-from-menu"
+                    className="umami--click--skills-from-menu"
                     >
                     Skills
-                  </NavLink>
-                  <NavLink
-                    to="/reflection"
-                    tag={Link}
-                    style={{ color: theme.text }}
-                    className="umami--click--reflection-from-menu"
-                    >
-                    Reflection
                   </NavLink>
                   <NavLink
                     to="/Hobbies"

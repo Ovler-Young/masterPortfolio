@@ -53,6 +53,15 @@ class Contact extends Component {
                     className="umami--click--resume-btn-in-contact-page"
                   />
                 </div>
+                <div className="resume-btn-div">
+                  <Button
+                    text="Schedule time with me"
+                    newTab={true}
+                    href="https://calendly.com/ovler"
+                    theme={theme}
+                    className="umami--click--Schedule-btn-in-contact-page"
+                  />
+                </div>
               </div>
             </div>
           </Fade>
